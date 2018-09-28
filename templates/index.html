@@ -1,0 +1,15 @@
+<html>
+<form method="post">
+    <input name="queue" placeholder="queue">
+    <input name="payload" placeholder="payload">
+    <input name="loop" type="checkbox">
+    <button>go</button>
+</form>
+
+<table>
+    {{range .}}
+    <tr><td>{{.}}</td></tr>
+    {{end}}
+</table>
+
+</html>
